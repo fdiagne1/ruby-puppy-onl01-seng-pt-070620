@@ -20,6 +20,7 @@ require "pry"
    
   
   def self.print_all
+    
     self.all.each do |pup|
 binding.pry       
       puts pup
