@@ -14,7 +14,6 @@ require "pry"
    end
    
    def self.all
-     
      @@all
    end
   
