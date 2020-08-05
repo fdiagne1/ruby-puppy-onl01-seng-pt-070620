@@ -20,6 +20,7 @@ require "pry"
   def self.print_all
     self.all.each do |pup|
       puts pup.name
+    end
   end
    
    def self.clear_all
