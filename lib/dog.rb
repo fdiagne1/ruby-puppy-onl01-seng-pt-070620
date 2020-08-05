@@ -14,6 +14,7 @@ require "pry"
    end
    
    def self.all
+     
      @@all
    end
    
@@ -21,7 +22,7 @@ require "pry"
   def self.print_all
 
     @@all.each do |pup|
- binding.pry     
+binding.pry      
       puts pup
     end
   end
