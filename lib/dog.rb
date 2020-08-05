@@ -20,9 +20,7 @@ binding.pry
    
   
   def self.print_all
-
-    @@all.each do |pup|
-     
+    self.all.each do |pup|
       puts pup
     end
   end
