@@ -14,14 +14,14 @@ require "pry"
    end
    
    def self.all
-binding.pry      
+     
      @@all
    end
    
   
   def self.print_all
     self.all.each do |pup|
-      
+binding.pry       
       puts pup
     end
   end
