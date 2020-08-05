@@ -22,8 +22,7 @@ require "pry"
   def self.print_all
 binding.pry     
     self.all.each do |pup|
-      puts pup
-    end
+      puts pup.name
   end
    
    def self.clear_all
