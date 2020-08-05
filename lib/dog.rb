@@ -19,9 +19,9 @@ require "pry"
    
   
   def self.print_all
-binding.pry
+
     @@all.each do |pup|
-      
+ binding.pry     
       puts pup
     end
   end
